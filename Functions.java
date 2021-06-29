@@ -28,6 +28,14 @@ public class Functions {
         return (4/3) * Math.PI * Math.pow(radio,3);
     }
 
+    /**
+     * Descripción: Función que especificando su moneda convierte una cantidad de dinero a dólares
+     *
+     * @param quantity Cantidad de dinero
+     * @param currency Tipo de Moneda: Solo acepta MXN o COP
+     * @return quantity Devuelve la cantidad actualizada en dólares
+     *
+     * */
     public static double convertToDolar(double quantity, String currency) {
         //Currency MXN or COP
         double total = 0;
